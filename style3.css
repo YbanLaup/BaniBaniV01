@@ -189,7 +189,7 @@ body {
   background: rgba(11,31,68,0.9); /* fond sombre transparent */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   text-align: center;
-  padding: 60px 45px; /* plus de padding pour agrandir */
+  padding: 40px 25px; /* plus de padding pour agrandir */
   height: 50vh;
 }
 
