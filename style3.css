@@ -176,17 +176,21 @@ body {
 /* ===========================
    SERVICES
 =========================== */
-/* ===========================
-   SERVICES CARDS
-=========================== */
+
+.services{
+  padding: 80px 0;
+  background: rgba(11,31,68,0.9); /* fond sombre transparent */
+  color: #fff;  
+
+}
 .service-card {
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   border-radius: 15px;
-  background: #ffffff;
+  background: rgba(11,31,68,0.9); /* fond sombre transparent */
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   text-align: center;
-  padding: 40px 25px; /* plus de padding pour agrandir */
-  height: 100%;
+  padding: 60px 45px; /* plus de padding pour agrandir */
+  height: 50vh;
 }
 
 .service-card:hover {
@@ -196,7 +200,7 @@ body {
 
 .service-icon {
   font-size: 3rem; /* un peu plus grand */
-  color: #0B1F44;
+  color: white;
   margin-bottom: 20px;
   transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -470,7 +474,7 @@ body {
    COUNTERS
 =========================== */
 .counters-section {
-  background: linear-gradient(135deg, #0B1F44, #005f9e);
+  background: rgba(11,31,68,0.9); /* fond sombre transparent */
   padding: 80px 0;
   color: #fff;
 }
@@ -606,9 +610,9 @@ body {
 
 .programmes-modern {
   padding: 80px 0;
-  background: linear-gradient(135deg, #0B1F44, #002B6B);
+  background: rgba(11,31,68,0.9); /* fond sombre transparent */
   color: #fff;
-}
+} 
 
 .programmes-modern h2 {
   color: #ffffff;
